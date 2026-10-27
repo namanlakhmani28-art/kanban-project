@@ -30,7 +30,7 @@ def get_board():
         cursor = conn.cursor(dictionary=True)
 
 
-        cursor.execute("SELECT * FROM columns ORDER BY position ASC")
+        cursor.execute("SELECT id, name AS title, position FROM columns ORDER BY position ASC")
         columns = cursor.fetchall()
 
         cursor.execute("SELECT * FROM tasks ORDER BY column_id ASC, position ASC")
