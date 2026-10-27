@@ -2,7 +2,7 @@
 
 A lightweight, responsive Kanban board application designed for task management and Agile workflow tracking. Built with a Python Flask backend, RESTful API architecture, Vanilla JavaScript frontend, and a remote MySQL database hosted on Aiven.
 
-🌐 **Live Demo:** [https://your-kanban-app.onrender.com](https://your-kanban-app.onrender.com)
+🌐 **Live Demo:** [https://your-kanban-app.onrender.com](https://kanban-project-wrcc.onrender.com/)
 
 ---
 
